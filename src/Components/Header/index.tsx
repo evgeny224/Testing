@@ -15,17 +15,6 @@ const HeaderComponent: FC = () =>{
     )
 }
 
-// class HeaderComponent extends React.PureComponent {
-//     render(){
-//         return(
-//             <header className={style.list}>
-//                 <div>Logo</div>
-//                 <div>Spisok</div>
-//                 <div>UserInfo</div>
-//                 <div>Info</div>
-//             </header>
-//         )
-//     }
-// }
+
 
 export default  HeaderComponent;
