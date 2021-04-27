@@ -6,36 +6,6 @@ import style from "./RegistarionPageForm.module.scss";
 
 
 
-// const CheckLogin: FC = (login) =>{
-//     const logins = login;
-//     console.log(login);
-//     return(
-//         <div>
-//         {logins ?
-//         <div>Логин введен</div>
-//         :
-//         <div>Введите пожалуйста логин</div>
-            
-//         }
-//         </div>
-//     )
-// }
-
-// const CheckPassword: FC = () =>{
-//     const [password, setPassword] = useState<string>("1");
-//     return(
-//         <div>
-//         { password   ?
-//         <div>Пароль введен</div>
-//         :
-//         <div>Введите пожалуйста пароль</div>
-            
-//         }
-//         </div>
-//     )
-// }
-
-
 
 const RegistratonPage: FC = () => {
     const [login, setLogin] = useState<string>("");
