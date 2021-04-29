@@ -7,7 +7,7 @@ import style from "./AuthPageForm.module.scss"
 const AuthForm: FC = () => {
     const[login, setLogin] =  useState<string>("");
     const[password, setPassword] = useState<string>("");
-    const [isFormOpen, setFormOpen] = useState<boolean>(false);
+    const [isFormOpen, setFormOpen] = useState<boolean>(true);
     console.log(login, "user login");
     console.log(password, "user passeord");
 

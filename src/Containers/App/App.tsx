@@ -9,8 +9,8 @@ function App() {
 
   return (
     <>
-      <Route exact path="/" component={AuthFormComponent} />
-      <Route path="/auth" component={RegistratonPageComponent} />
+      <Route exact path="/" component={RegistratonPageComponent} />
+      <Route path="/auth" component={AuthFormComponent} />
     </>
   )
 }
