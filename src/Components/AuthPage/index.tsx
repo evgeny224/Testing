@@ -1,19 +1,19 @@
 import React, {FC} from "react";
-import RegistratonPage from "../RegistrationPage/RegistarionPageForm";
+import AuthForm from "./AuthPageForm";
 import PageWrapper from "../Common/PageWrapper";
 
 
 
-const RegistratonPageComponent: FC = () => {
+const AuthFormComponent: FC = () => {
     
         return(
             <div>
                 <PageWrapper>
-                <RegistratonPage />
+                    <AuthForm />
                 </PageWrapper>
             </div>
         )
     }
 
 
-export default RegistratonPageComponent;
+export default AuthFormComponent;

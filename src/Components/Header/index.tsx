@@ -1,4 +1,5 @@
 import React, { FC } from "react";
+import { Link } from "react-router-dom";
 import style from "./Header.module.scss";
 
 
@@ -7,10 +8,14 @@ import style from "./Header.module.scss";
 const HeaderComponent: FC = () =>{
     return(
         <header className={style.list}>
-            <div>Logo</div>
-            <div>Spisok</div>
-            <div>UserInfo</div>
-            <div>Info</div>
+                <div>Логотип</div>
+                <div>Список</div>
+            <Link to="/auth">
+                <div>Авторизация</div>
+            </Link>
+            <Link to="/">
+                <div>Регистрация</div>
+            </Link>
         </header>
     )
 }

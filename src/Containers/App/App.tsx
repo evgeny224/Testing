@@ -1,13 +1,16 @@
 import React from "react";
+import { Route } from "react-router-dom";
 import "../../App.css";
-import MainPageComponent from "../../Components/MainPageWrapper";
+import RegistratonPageComponent from "../../Components/MainPageWrapper";
+import AuthFormComponent from "../../Components/AuthPage";
 
 
 function App() {
 
   return (
     <>
-      <MainPageComponent />
+      <Route exact path="/" component={AuthFormComponent} />
+      <Route path="/auth" component={RegistratonPageComponent} />
     </>
   )
 }
